@@ -1,6 +1,6 @@
 # Todos React application
 
-##[DEMO LINK](https://romekivantsiv.github.io/React_todo_app/)
+## [DEMO LINK](https://romekivantsiv.github.io/React_todo_app/)
 
 ## Functionality:
 * just write a title an input field and press Enter to add new todo
