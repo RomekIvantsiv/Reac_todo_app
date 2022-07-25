@@ -12,17 +12,9 @@ export const Footer = () => {
   const dispatch = useDispatch();
 
   const notCompletedTodos = (allTodos: Todo[]) => {
-    let result = 0;
+    const notCompletedTodos = allTodos.filter(todo => todo.completed === false);
 
-    for (let i = 0; i < allTodos?.length; i += 1) {
-      const current = allTodos[i];
-
-      if (current.completed === false) {
-        result += 1;
-      }
-    }
-
-    return result;
+    return notCompletedTodos.length;
   };
 
   const todosLeft = notCompletedTodos(todos);

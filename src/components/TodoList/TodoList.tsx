@@ -27,7 +27,7 @@ export const TodoList = () => {
 
   useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(todos));
-  });
+  }, [todos]);
 
   useEffect(() => {
     setNewTitle(currentTodo?.title);

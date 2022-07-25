@@ -13,15 +13,14 @@ export const TodoInput = () => {
 
   const handleFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const id = uuid();
     const newTodo: Todo = {
-      id: uuid(),
+      id,
       title,
       completed: false,
     };
 
     if (newTodo.title !== '') {
-      // eslint-disable-next-line no-console
-      console.log(todos);
       dispatch(setTodos([...todos, newTodo]));
       setTitle('');
     }

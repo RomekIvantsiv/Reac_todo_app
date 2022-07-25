@@ -8,6 +8,7 @@ module.exports = {
     'react/prop-types': 0,
     'react/self-closing-comp': 0,
     'react/display-name': 0,
+    'no-shadow': 'off',
 
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'jsx-a11y/control-has-associated-label': [2, {
