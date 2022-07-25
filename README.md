@@ -12,7 +12,7 @@
 
 ### Dependencies
 * Node v14.19.1 and higher
-( NPM v6.14.4 and higher
+* NPM v6.14.4 and higher
 
 ### Installing
 * Fork and clone this repository
