@@ -3,7 +3,7 @@
 ## [DEMO LINK](https://romekivantsiv.github.io/React_todo_app/)
 
 ## Functionality:
-* just write a title an input field and press Enter to add new todo
+* just write a title an input field and press `Enter` to add new todo
 * remove existing todo clicking `X`
 * double click on the TODO title makes it editable (`Enter` saves changes `Ecs` cancels editing)
 * you can filter the todos by status (all, completed, active)
