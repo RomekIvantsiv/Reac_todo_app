@@ -173,7 +173,7 @@ export const TodoList = () => {
                 onChange={(event) => {
                   setNewTitle(event.target.value);
                 }}
-                onKeyPress={(event) => {
+                onKeyDown={(event) => {
                   if (event.key === 'Escape') {
                     setEdit('');
                   }
